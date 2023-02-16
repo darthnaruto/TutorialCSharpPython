@@ -1,7 +1,5 @@
-﻿using System.Formats.Asn1;
-
-var rand = new Random();
-int numeroQueNinguemSabe = rand.Next(100);
+﻿var numeroAletorio = new Random();
+int numeroQueNinguemSabe = numeroAletorio.Next(100);
 int chute = -1;
 int tentativas = 0;
 while (chute != numeroQueNinguemSabe)
