@@ -6,7 +6,7 @@ import os
 os.system('cls' if os.name == 'nt' else 'clear')
 
 # substitua <sua_chave_api> pela chave de API fornecida pela OpenAI
-api_key = "digite_sua_api_aqui"
+api_key = "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"
 url = "https://api.openai.com/v1/engines/text-davinci-003/completions"
 
 headers = {
